@@ -433,7 +433,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF1493', end
 	margin: 0;
 }
 #board hr {
-	background: #fff;
+	background: #808000;
 }
 #board h4 {
 	color: 	#FFFF00;
@@ -583,11 +583,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 
 .board h2 {
 
-		    color: #000000;
+		    color: 	#808000;
 				font-family: "Times New Roman";font-family: Arial;
-		};
-		font-family: "Times New Roman";font-family: Arial;
-}
+		}
+
 .board p {
 
     color: #000000;
@@ -610,7 +609,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
     font-size: 17px;
     border-radius: 50%;
     background-color: #a0db8e;
-    color: #800000;
+    color: 	#808000;
 }
 
 .board a:hover i {
@@ -622,4 +621,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	background: #444 url(../img/board.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
-
