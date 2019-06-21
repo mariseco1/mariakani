@@ -439,7 +439,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endCol
 	background: #fff;
 }
 #board h4 {
-	color: 	#FFFF00;
+	color: #070600;
 	font-weight: 500;
 	font-size: 20px;
 	margin: 5px 0;
@@ -580,7 +580,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 .board h4 {
 
     margin: 20px 0 20px;
-    color: #00FFFF;
+    color: #070600;
 		font-family: "Rockwell"
 }
 
