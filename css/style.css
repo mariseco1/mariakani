@@ -24,7 +24,7 @@ h4 {
 	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: 400;
-	color: #808000;
+	color: #01164F;
 }
 h5 {
 	text-transform: uppercase;
@@ -43,7 +43,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #222;
+	color: #01164F;
 }
 ul, ol {
 	list-style: none;
