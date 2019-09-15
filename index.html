@@ -94,36 +94,6 @@ width: 34px;
 cursor: pointer;
 }
 </style>
-<script type='text/javascript'>
-$(function(){
-var overlay = $('<div id="overlay"></div>');
-overlay.show();
-overlay.appendTo(document.body);
-$('.popup').show();
-$('.close').click(function(){
-$('.popup').hide();
-overlay.appendTo(document.body).remove();
-return false;
-});
-
-$('.x').click(function(){
-$('.popup').hide();
-overlay.appendTo(document.body).remove();
-return false;
-});
-});
-</script>
-<div class='popup'>
-<div class='cnt223'>
-<h1>Important Notice</h1>
-<p>
-Pinch the screen to fit your smart phone size.
-<br/>
-<br/>
-<a href='' class='close'>Close</a>
-</p>
-</div>
-</div>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation
 
