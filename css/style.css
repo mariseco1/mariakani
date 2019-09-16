@@ -628,15 +628,106 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 img {
     max-width: 100%
 }
-
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
+@brand-color: #b20000;
+#tcb-testimonial-carousel {
+    a{
+        color: @brand-color;
+    }
+    .text-brand{
+        color: @brand-color;
+    }
+    margin-top: 30px;
+    .carousel-indicators .active {
+        background: @brand-color;
+    }
+    .no-margin{
+        margin: 0;
+    }
+    .carousel-indicators li {
+        border: 1px solid #ccc;
+    }
+    .carousel-control {
+        color: @brand-color;
+        width: 5%;
+    }
+    .carousel-control:hover,
+    .carousel-control:focus {
+        color: @brand-color;
+    }
+    .carousel-control.left,
+    .carousel-control.right {
+        background-image: none;
+    }
+    .item{
+        padding: 15px 40px;
+        background: #f8f8f8;
+    }
+    .media-object {
+        margin: auto;
+    }
+    @media screen and (max-width: 768px) {
+        .media-object {
+            margin-bottom: 15px;
+        }
     }
 }
 
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
-    }
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: landscape) {
+
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait */
+
+@media screen
+
+and (device-width: 360px)
+
+and (device-height: 640px)
+
+and (-webkit-device-pixel-ratio: 3)
+
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+
+@media screen
+
+and (device-width: 360px)
+
+and (device-height: 640px)
+
+and (-webkit-device-pixel-ratio: 3)
+
+and (orientation: landscape) {
+
 }
